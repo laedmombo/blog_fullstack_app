@@ -1,0 +1,22 @@
+.bg-post-item {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.bg-post-author {
+    border-bottom: solid 2px black;
+}
+
+.bg-post-content {
+    border: solid 2px black;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-transform: capitalize;
+}
