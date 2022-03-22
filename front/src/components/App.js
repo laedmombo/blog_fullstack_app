@@ -3,12 +3,15 @@ import Banner from './Banner';
 import Favoris from './Favoris';
 import Footer from './Footer';
 import logo from '../assets/logo.png'
+import { Outlet } from 'react-router-dom';
 import '../styles/Layout.css'
 import { useEffect, useState } from 'react';
 
-function App() {
-  const [favoris, updateFavoris] = useState([])
 
+function App() {
+ 
+  const [favoris, updateFavoris] = useState([])
+  
 
   return (
     <div>

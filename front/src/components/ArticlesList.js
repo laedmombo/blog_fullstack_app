@@ -3,6 +3,7 @@ import { postList } from "../datas/postList";
 import '../styles/ArticlesList.css'
 import Categories from "./Categories";
 import PostItem from "./PostItem";
+import { link } from 'react-router-dom'
 
 function ArticlesList({favoris, updateFavoris}){
     const [activeCategory, setActiveCategory] = useState('')
