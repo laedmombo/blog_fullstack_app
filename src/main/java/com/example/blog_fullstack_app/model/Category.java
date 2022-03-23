@@ -77,4 +77,6 @@ public class Category {
         article.getCategories().remove(this);
     }
 
+    public void addArticle(Article article) {
+    }
 }
